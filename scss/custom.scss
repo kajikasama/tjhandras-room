@@ -1,0 +1,69 @@
+$body-bg: rgb(27, 27, 27);
+$body-color: rgb(255, 255, 255);
+$primary: rgb(116, 107, 255);
+$font-family-sans-serif: "Poppins", sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+.custom-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  border: none;
+}
+.card-body {
+  background: rgb(49, 49, 49);
+}
+.card-body p {
+  color: rgb(189, 189, 189);
+}
+.card-img .card-img-top {
+  object-fit: cover;
+  aspect-ratio: 1/0.7;
+}
+.footer-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
+    url("../img/bg5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.ig-bg {
+  color: $blue-400;
+}
+.fb-bg {
+  color: $indigo-400;
+}
+.sc-bg {
+  color: $orange-500;
+}
+.logo-bg {
+  color: $purple-300 !important;
+}
+// .logo-bg2:active {
+//   background: $purple-300 !important;
+// }
+// .logo-bg2 {
+//   background: $purple-300 !important;
+//   border: none;
+// }
+
+.social-media {
+  opacity: 0.8;
+}
+
+.social-media a:hover {
+  opacity: 1;
+}
